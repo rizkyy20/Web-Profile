@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Welcome To Our</title>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <h1>F</h1>
+        <a href="#home">Home</a>
+        <a href="#socials">Socials</a>
+        <a href="#friends">Friends</a>
+        <button class="btn" onclick="redirectIg()">Follow me</button>
+      </div>
+    </nav>
+    <section>
+      <div class="container">
+        <div class="content">
+          <img src="Assets/Images/Open Doodles - Solo.png" alt="img" data-aos="fade-right"/>
+          <div class="description" data-aos="fade-left">
+            <h1>Hallo Guys!!</h1>
+            <p>
+              My Name Is Muhammad Rizky Yamin, you can call me Kiki. One day i
+              will be a fullstack developer,wish me luck guys
+            </p>
+            <p>Press the button below if you need help</p>
+            <button type="text" class="chat" onclick="email()">Chat Me</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="point" id="socials">
+        <h1></h1>
+      </div>
+      <div class="container2">
+        <div class="description2">
+          <div class="socials" data-aos="fade-right">
+            <h2>"All roads lead to rome"</h2>
+            <p>
+              The saying teaches us that reaching the same goal through
+              different methods is not a problem. Sometimes, strategies that
+              work for others may not be suitable for us. Therefore, we need to
+              explore various ways until we find an approach that aligns with
+              our own circumstances.
+            </p>
+          </div>
+          <div class="content2" data-aos="fade-left">
+            <img src="Assets/Images/Città - House.png" alt="friends" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="friends" id="friends">
+        <h1 data-aos="fade-down">In my memories</h1>
+        <div class="kiri" data-aos="fade-right">
+          <div>
+            <img src="Assets/Images/Ikbal.png" alt="ibas" />
+          </div>
+          <p>Ikbal Alfarizi a.k.a <span>Ibass The Cowo</span></p>
+        </div>
+        <div class="kanan" data-aos="fade-left">
+          <p>Fathir Apriansyah a.k.a <span>Dadangs The PrettyCool</span></p>
+          <div>
+            <img src="Assets/Images/Dadang.png" alt="dangs" />
+          </div>
+        </div>
+        <div class="kiri" data-aos="fade-right">
+          <div>
+            <img src="Assets/Images/Andhika.png" alt="dangs" />
+          </div>
+          <p>Andhika Pratama a.k.a <span>Coklat The Billiard</span></p>
+        </div>
+        <div class="kanan" data-aos="fade-left">
+          <p>Rafli Lutfian a.k.a <span>Kodok The Prince</span></p>
+          <div>
+            <img src="Assets/Images/kodok.png" alt="dangs" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="sosmed">
+          <i class="fa-brands fa-instagram" onclick="redirectIg()"></i>
+          <i class="fa-brands fa-github" onclick="redirectGit()"></i>
+          <i class="fa-brands fa-linkedin" onclick="redirectLink()"></i>
+          <i class="fa-brands fa-tiktok" onclick="redirectTiktok()"></i>
+        </div>
+        <p>Created by <span>Frozz</span>. | &copy;2024</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
